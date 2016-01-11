@@ -98,14 +98,14 @@ class fx_SSL_Settings{
 	public function settings_field_ssl(){
 
 		/* Check if feature is supported. */
-		if( is_ssl() && force_ssl_admin() && fx_ssl_is_https( get_bloginfo( 'url' ) ) && fx_ssl_is_https( get_bloginfo( 'wpurl' ) ) ){
+		if( is_ssl() && force_ssl_admin() && fx_ssl_is_https( get_option( 'home' ) ) && fx_ssl_is_https( get_option( 'siteurl' ) ) ){
 			$disabled = '';
 			$option = get_option( $this->option_name, false );
 		}
 		/* Feature is not supported. */
 		else{
 			$disabled = ' disabled=disabled';
-			$option = false;
+			$option = false; // always false if requirement not met.
 		}
 	?>
 		<label for="fx_ssl_enable">

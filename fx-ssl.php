@@ -3,7 +3,7 @@
  * Plugin Name: f(x) SSL
  * Plugin URI: http://genbu.me/plugins/fx-ssl/
  * Description: Simple SSL(HTTPS) Plugin.
- * Version: 1.0.0
+ * Version: 1.1.0
  * Author: David Chandra Purnama
  * Author URI: http://shellcreeper.com/
  *
@@ -26,7 +26,7 @@ if ( ! defined( 'WPINC' ) ) { die; }
 ------------------------------------------ */
 
 /* Set the version constant. */
-define( 'FX_SSL_VERSION', '1.0.0' );
+define( 'FX_SSL_VERSION', '1.1.0' );
 
 /* Set the constant path to the plugin path. */
 define( 'FX_SSL_PATH', trailingslashit( plugin_dir_path( __FILE__ ) ) );
