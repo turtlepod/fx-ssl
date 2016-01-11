@@ -12,7 +12,7 @@ if ( ! defined( 'WPINC' ) ) { die; }
  * @since 0.1.0
  */
 function fx_ssl_active(){
-	if( force_ssl_admin() && get_option( 'fx-ssl', false ) && fx_ssl_is_https( get_bloginfo( 'url' ) ) && fx_ssl_is_https( get_bloginfo( 'wpurl' ) ) ){
+	if( force_ssl_admin() && get_option( 'fx-ssl', false ) && fx_ssl_is_https( get_option( 'home' ) ) && fx_ssl_is_https( get_option( 'siteurl' ) ) ){
 		return true;
 	}
 	return false;
@@ -59,7 +59,7 @@ function fx_ssl_template_redirect(){
 
 	/* If not loaded using HTTPS, redirect to HTTPS Url */
 	if ( !is_ssl() ) {
-		wp_redirect('https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'], 301 );
+		wp_redirect('https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'], 302 );
 		exit();
 	}
 }

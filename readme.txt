@@ -49,6 +49,12 @@ In order to enable access to HTTPS/SSL, you need to have a SSL License and insta
 
 == Changelog ==
 
+= 1.1.0 - 11 Jan 2015 =
+* Update readme.
+* Update Notice.
+* Use get_option() instead of get_bloginfo() to get site url.
+* Use temporary redirect.
+
 = 1.0.0 - 11 Jan 2015 =
 * Init
 
@@ -56,6 +62,9 @@ In order to enable access to HTTPS/SSL, you need to have a SSL License and insta
 
 = 1.0.0 =
 initial relase.
+
+= 1.0.1 =
+Bug Fix.
 
 == Other Notes ==
 
