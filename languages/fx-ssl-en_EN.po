@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: f(x) Login Notification\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-11 14:49+0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: David Chandra Purnama <david@shellcreeper.com>\n"
+"Language-Team: David Chandra P <david@shellcreeper.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__;esc_html_e;esc_html__;_x;"
+"_n;_x:1,2c;_n:1,2;_ex\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: fx-ssl.php:101
+#, php-format
+msgctxt "activation notice"
+msgid ""
+"You need to enable (and enforce) <a href=\"%s\" target=\"_blank\">WordPress "
+"administration over SSL</a> and use HTTPS URL in \"WordPress Address (URL)\" "
+"and \"Site Address (URL)\" in <a href=\"%s\">General Settings</a> to use "
+"f(x) SSL plugin."
+msgstr ""
+
+#: fx-ssl.php:109
+#, php-format
+msgctxt "activation notice"
+msgid ""
+"Navigate to <a href=\"%s\">General Settings</a> to activate SSL (HTTPS) in "
+"your site."
+msgstr ""
+
+#: fx-ssl.php:117
+msgctxt "activation notice"
+msgid "Your site SSL (HTTPS) is active."
+msgstr ""
+
+#: includes/settings.php:60
+msgctxt "settings page"
+msgid "SSL (HTTPS)"
+msgstr ""
+
+#: includes/settings.php:68
+msgctxt "settings page"
+msgid "Force SSL"
+msgstr ""
+
+#: includes/settings.php:90
+#, php-format
+msgctxt "settings page"
+msgid ""
+"You need to enable (and enforce) <a href=\"%s\" target=\"_blank\">WordPress "
+"administration over SSL</a> and use HTTPS URL in \"WordPress Address (URL)\" "
+"and \"Site Address (URL)\" settings above to activate this feature."
+msgstr ""
+
+#: includes/settings.php:112
+msgid "Redirect all pages to HTTPS"
+msgstr ""
